@@ -7,17 +7,17 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [Ed-Tech](Https://wisdom-learning-academy.com)
+- 🔭 I’m currently working on [Ed-Tech](Https://imav.world)
 
 - 🌱 I’m currently learning **Tourism And Mangment**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
-- 🤝 I’m looking for help with [Recruitment](Https://wisdom-learning-academy.com/careers.html)
+- 🤝 I’m looking for help with [Recruitment](Https://imav.world)
 
-- 👨‍💻 All of my projects are available at [https://irfanmulla.me](https://irfanmulla.me)
+- 👨‍💻 All of my projects are available at 🔒
 
-- 📝 I regularly write articles on [Https://wisdom-learning-academy.com/blog](Https://wisdom-learning-academy.com/blog)
+- 📝 I regularly write articles on [Https://wisdom-learning-academy.com/blog](Https://imav.world/blog)
 
 - 💬 Ask me about **Anything About Entrepreneurial Journey**
 

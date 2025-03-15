@@ -17,7 +17,7 @@
 
 - 👨‍💻 All of my projects are available at 🔒
 
-- 📝 I regularly write articles on [Https://wisdom-learning-academy.com/blog](Https://imav.world/blog)
+- 📝 I regularly write articles on [Blog](Https://imav.world/blog)
 
 - 💬 Ask me about **Anything About Entrepreneurial Journey**
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#04040f"  stop-opacity="1"/>
+      <stop offset="20%"  stop-color="#00BFFF"  stop-opacity="0.8"/>
+      <stop offset="50%"  stop-color="#ffffff"  stop-opacity="0.4"/>
+      <stop offset="80%"  stop-color="#5865F2"  stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#04040f"  stop-opacity="1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="40" fill="#04040f"/>
+
+  <!-- Glowing line -->
+  <line x1="60" y1="20" x2="840" y2="20"
+        stroke="url(#divGrad)" stroke-width="1.5"
+        filter="url(#glow)"/>
+
+  <!-- Center diamond ornament -->
+  <polygon points="450,14 456,20 450,26 444,20"
+           fill="#00BFFF" fill-opacity="0.9"
+           filter="url(#glow)">
+    <animate attributeName="fill-opacity" values="0.9;0.4;0.9" dur="2.5s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="450,14 456,20 450,26 444,20"
+           fill="none" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.6"/>
+
+  <!-- Side dots -->
+  <circle cx="380" cy="20" r="2" fill="#5865F2" fill-opacity="0.8">
+    <animate attributeName="fill-opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="20" r="2" fill="#5865F2" fill-opacity="0.8">
+    <animate attributeName="fill-opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#04040f"/>
+      <stop offset="100%" stop-color="#0a0a2e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="25%" cy="60%" r="40%">
+      <stop offset="0%"   stop-color="#00BFFF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00BFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="60%" r="40%">
+      <stop offset="0%"   stop-color="#5865F2" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="lineGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#04040f" stop-opacity="1"/>
+      <stop offset="30%"  stop-color="#00BFFF" stop-opacity="0.8"/>
+      <stop offset="50%"  stop-color="#ffffff"  stop-opacity="0.5"/>
+      <stop offset="70%"  stop-color="#5865F2" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#04040f" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wave top edge -->
+  <path d="M0,0 Q225,40 450,20 Q675,0 900,30 L900,120 L0,120 Z"
+        fill="url(#footerBg)"/>
+
+  <!-- Aurora glow orbs -->
+  <rect width="900" height="120" fill="url(#glow1)"/>
+  <rect width="900" height="120" fill="url(#glow2)"/>
+
+  <!-- Glowing top line -->
+  <line x1="0" y1="30" x2="900" y2="30" stroke="url(#lineGrad)" stroke-width="1"
+        filter="url(#lineGlow)" opacity="0.7"/>
+
+  <!-- Footer text -->
+  <text x="450" y="72" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="13" fill="#99ccff" fill-opacity="0.75" letter-spacing="1">
+    ✦  Crafted by fury-05  ·  Powered by IMAV Learning Academy  ✦
+  </text>
+  <text x="450" y="96" text-anchor="middle"
+        font-family="'Fira Code', monospace"
+        font-size="11" fill="#5865F2" fill-opacity="0.6" letter-spacing="2">
+    imav.world  ·  github.com/fury-05
+  </text>
+
+</svg>
